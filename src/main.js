@@ -17,4 +17,4 @@ await connectDB();
 app.use('/api', router);
 app.use(golobalError);
 
-app.listen(PORT, ()=> console.log('Server running on port', PORT));
+app.listen(PORT, ()=> console.log('Server running onn port', PORT));
