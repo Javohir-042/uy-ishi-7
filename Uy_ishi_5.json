@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "bd6794c7-8e2e-483b-bad4-5ea9b962b45f",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46116029",
+		"_collection_link": "https://javohir-4734146.postman.co/workspace/Javohir's-Workspace~2422f181-7f95-4401-8e69-9a121b3983f3/collection/46116029-bd6794c7-8e2e-483b-bad4-5ea9b962b45f?action=share&source=collection_link&creator=46116029"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Javohir11\",\n    \"email\": \"Javohir@gmail.com\",\n    \"password\": \"Abcd1234!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Javohir11\",\n    \"password\": \"Abcd1234!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/admin/signin",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"admin",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
